@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/bg-hero-desktop.svg);
+    flex-direction: column;
+    gap: 70px;
+    padding: 100px;
+    background-color:  hsl(193, 100%, 96%);
+}
+.nav{
+    display: flex;
+    gap: 600px;
+    
+}
+.nav button{
+    border: none;
+    background-color: white;
+    width: 120px;
+    border-radius: 15px;
+    height: 30px;
+    font-size: x-small;
+}
+.nav img{
+    height: 20px;
+}
+.Build{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.Build img{
+    height: 50vh;
+
+}
+.Build h1{
+    width: 350px;
+    font-size: xx-large;
+}
+.Build p{
+    width: 400px;
+    color:  rgba(0, 0, 0, 0.605) ;
+    font-size: small;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} .get button{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 15px;
+    font-size: x-small;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px 100px;
+    box-shadow: 0 0 15px rgb(211, 210, 210);
+    border-radius: 10px;
+    gap: 140px;
+    margin-top: 100px;
+}
+.flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px 100px;
+    box-shadow: 0 0 15px rgb(211, 210, 210);
+    border-radius: 10px;
+    gap: 140px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 60px 100px;
+    box-shadow: 0 0 15px rgb(211, 210, 210);
+    border-radius: 10px;
+    gap: 140px;
+}
+.grow p{
+    width: 370px;
+    color:  hsl(208, 11%, 55%);
+}
+.imm{
+    height: 200px;
+}
+.imm2{
+    height: 200px;
+    width: 250px;
+}
+.floww p{
+    width: 370px;
+    color:  hsl(208, 11%, 55%);
+}
+.users P{
+    width: 370px;
+    color:  hsl(208, 11%, 55%);
+}
+.users, .floww,.grow{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    /* padding: 30px 60px; */
+    box-shadow: 0 0 15px rgb(213, 213, 213);
+    border-radius: 15px;
+}
+.hud{
+    height: 15px;
+}
+.flow{
+    display: flex;
+    
+}
+
+.ready{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    box-shadow: 0 0 15px rgb(180, 180, 180);
+    padding: 40px;
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+}
+.ready button{
+    background-color: hsl(322, 100%, 66%); 
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;   
+}
+.first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    align-items: center;
+    font-size: small;
+}
+.contact p{
+    width: 250px;
+}
+.about{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: small;
+   
+}
+.career{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: small;
+   
+}
+.copy{
+    color: white;
+    margin-top: 150px;
+    font-size: small;
+}
+.secc{
+    background-color:  hsl(192, 100%, 9%) ;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 60px 60px;
+    align-items: center;
+}
+.seccd{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; 
+}
+.contact{
+    display: flex;
+    gap: 15px;
+}
+.contact img{
+    height: 10px;
+}
+.lisst{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 950px) {
+    .nav{
+        gap: 100px;
+    }
+    .sec1{
+        background-image: url(./images/bg-hero-mobile.svg);
+        padding: 40px;
+    }
+    .Build{
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+    .Build img{
+        height: 30vh;
+    }
+    
+    .sec2, .flow, .user{
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+    .sec2,.user{
+        flex-direction: column-reverse;
+    }
+    .secc{
+        padding-top: 30%;
+    }
+    .seccd{
+        flex-direction: column;
+    }
+    .lisst{
+        flex-direction: column;
+        align-items:    flex-start ;
+        gap: 35px;
+    }
+    .get p{
+        width: 70vw;
+        text-align: center;
+        font-size: 18px;
+    }
+    .get{
+        align-items: center; 
+        gap: 40px;    
+    }
+    .get button{
+        height: 40px;
+        font-size: small;
+        width: 70%;
+        border-radius: 20px;
+    }
+    .grow p{
+        width: 70vw;
+        font-size: large;
+    }
+    .floww p{
+        width: 68vw;
+        font-size: large;
+    }
+    .user p{
+        font-size: large;
+        width: 65vw;
+    }
+    .ready{
+        width: 90vw;
+        align-items: center;
+    }
+    .ready h1{
+        /* width: 400px; */
+        text-align: center;
+        width: 80vw;
+        font-size: 20px;
+    }
+    .copy{
+        margin-top: 0;
+    
+    }
+}
